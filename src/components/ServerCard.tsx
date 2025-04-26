@@ -3,6 +3,7 @@ import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import { Users, Globe, ArrowUp, Shield } from "lucide-react";
 import { ServerType } from "@/types/server";
+import { cn } from "@/lib/utils"; // Добавлен импорт функции cn
 
 const ServerCard = ({
   name,
